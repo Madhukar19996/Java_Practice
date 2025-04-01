@@ -5,7 +5,7 @@ public class PrintWeekNumber_Based_On_Week_Name {
 	public static void main(String[] args) 
 	
 	{
-		// WAP print week number based on week number using switch case
+		// WAP print week number based on week name using switch case
 		
 		String weekname="Funday";
 		
@@ -19,7 +19,7 @@ public class PrintWeekNumber_Based_On_Week_Name {
 		case "Friday": System.out.println(6); break;
 		case "Saturday": System.out.println(7); break;
 		
-		default :System.out.println("Invalid day "); break;
+		default :System.out.println("Invalid  Weekday "); break;
 		
 		}
 
