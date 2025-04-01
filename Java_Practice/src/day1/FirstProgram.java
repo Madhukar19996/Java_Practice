@@ -6,5 +6,6 @@ public class FirstProgram
        {
     	   System.out.println("Welcome to Java");
     	   System.out.println("Namaste India ");
+    	   System.out.println("Namaste Madhukar ");
        }
 }
