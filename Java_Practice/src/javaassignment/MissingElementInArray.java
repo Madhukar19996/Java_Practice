@@ -4,33 +4,29 @@ public class MissingElementInArray {
 
 	public static void main(String[] args) 
 	{
-		// TODO Auto-generated method stub
+		// WAP to print missing number in an array 
 		
-		int a[]= {1,3,4,5};
-		int range[]= {1,2,3,4,5};
+		//Numbers should be in range.
+		//Should not have duplicates.
+		//No need of sorting order.
+        
+		int a[]= {1,2,3,4,5,6,7,8,10};
 		int sum1=0;
 		int sum2=0;
-		int sub=sum2-sum1;
 		
-		for(int i=0; i<=3;i++)
+		for (int i =0; i<=a.length-1;i++) 
 		{
 			sum1=sum1+a[i];
-			
-			
-			
 		}
-		for(int i=0; i<=range.length-1;i++)
-		{
-			sum2=sum2+a[i];
-			
-			
-			
-		}
+		System.out.println("Sum of elements in a array"+sum1);
 		
-		 
-		 System.out.println("Sum of Sum1 is"+sum1);
-		 System.out.println("Sum of Sum2 is"+sum2);
-		 System.out.println("Missing Number of an array is"+ sub);
+		for(int i=1; i<=10;i++)
+		{
+			sum2=sum2+i;
+		}
+
+		System.out.println("Sum of elements in a array"+sum2);
+		System.out.println("Missing number is :"+(sum2-sum1));
 		
 		
 
