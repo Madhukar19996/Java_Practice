@@ -8,6 +8,17 @@ public class Animal {
 	{
 		System.out.println("Eating ..");
 	}
+	
+	Animal()
+	{
+		System.out.println("This is Animal");
+	}
+	
+	Animal(String name)
+	{
+		System.out.println(name);
+	}
+
 
 
 }
@@ -28,4 +39,15 @@ class Dog extends Animal
 		//System.out.println("Eating Bread");
 		super.eat();
 	}
+	
+	Dog()
+	{   //super(); // invoke parent class constructor 
+		//System.out.println("This is Dog");
+	}
+	
+	Dog(String name)
+	{
+		super(name);
+	}
+
 }
