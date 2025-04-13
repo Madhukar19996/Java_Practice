@@ -26,7 +26,7 @@ public class InterfaceDemo implements Shape
 	
     void triangle()
     {
-     System.out.println("This is triangle...");
+     System.out.println("This is triangle..");
     }
 
 	public static void main(String[] args) {
