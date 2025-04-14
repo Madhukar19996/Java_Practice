@@ -28,8 +28,44 @@ public class DataConvertions {
 		
 		
 		//String --->char  // cannot convert is not possible 
-		String c='A';
+		 //String ch ='A';
 		//Character.parse
+		
+		
+		//Scenario 2: int , double, bool, char ---> String 
+		
+		int x=100;
+		String s1=String.valueOf(x);
+		
+		double d=12.5;
+		String s2=String.valueOf(d);
+		
+		boolean b=true;
+		String s3=String.valueOf(b);
+		
+		char c='A';
+		String s4=String.valueOf(c);
+		
+		//Scenario 3: int ---> double 
+		
+		/*int x1=10;
+		
+		double d1=x1;
+		System.out.println(d1);*/
+		
+		
+		// double ---> int 
+		
+		double d1=10.2;
+		int x1=(int)d;
+		System.out.println(x1); //10 
+		
+		
+		
+		
+		
+		
+		
 
 	}
 
