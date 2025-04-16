@@ -18,7 +18,7 @@ class Child extends Parent
 	 }
 }
 
-public class TypecastingObjects1 {
+public class TypeCastingObjects1 {
 
 	public static void main(String[] args) {
 		
@@ -37,14 +37,15 @@ public class TypecastingObjects1 {
 		System.out.println(p.id);  //we cannot access 
 		p.m2();  //we cannot access
 		*/
-		Parent p =new Parent();
+	//  Parent p =new Parent();
 	//  Child c= new Parent(); // Downcasting 
-		Child c= (Child)p;
+		/*Child c= (Child)p;
 		
 		System.out.println(c.name);
 		System.out.println(c.id);
 		c.m1();
 		c.m2();
+		*/
 
 	}
 
