@@ -1,8 +1,8 @@
 package Assignment1;
 
- public class ifelseproblem {
+ class ifelseproblem {
 	
-	public static void main(String[] args) {
+	public static void main(String arr[] ) {
 	
 	int age=25;
 	char gender= 'f';
